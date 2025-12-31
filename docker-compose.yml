@@ -17,7 +17,7 @@ services:
       - /etc/localtime:/etc/localtime:ro
       - /var/run/docker.sock:/var/run/docker.sock:ro
       - ./data/traefik.yml:/traefik.yml:ro
-      - ./data/acme-letsencrypt.json:/acme-le.json
+      - ./data/acme-le.json:/acme-le.json
       - ./data/acme-buypass.json:/acme-buypass.json
       # Ensure dynamic.yml is inside this folder on your host
       - ./data/configurations:/configurations:ro
