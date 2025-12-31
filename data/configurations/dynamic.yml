@@ -18,7 +18,7 @@ http:
 
     user-auth:
       basicAuth:
-        usersFile: ".htpasswd"
+        usersFile: "/configurations/.htpasswd"
 
 tls:
   options:
