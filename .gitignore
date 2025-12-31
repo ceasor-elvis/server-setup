@@ -1,0 +1,13 @@
+# Docker Secrets
+.env
+
+# Traefik ACME/SSL Certificates (CRITICAL)
+# These contain your private keys and should never be public
+data/*.json
+
+# Credentials / Passwords
+# This ignores the .htpasswd file inside your configurations folder
+data/configurations/.htpasswd
+
+# Temporary / Log files
+*.log

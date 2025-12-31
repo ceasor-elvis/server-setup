@@ -1,2 +1,2 @@
 # server-setup
-Files to setup VPS for hosting multiple websites through traefik and docker
+These are files to setup server for hosting multiple sites using traefik
